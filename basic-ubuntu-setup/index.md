@@ -1,4 +1,4 @@
-# A Guide to Ubuntu Installtion & Setup
+# A Guide to Ubuntu Installation & Setup
 
 
 This article offers steps of Linux Ubuntu installation.
