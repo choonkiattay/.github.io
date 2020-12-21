@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <title>A Guide to Ubuntu Installtion &amp; Setup - </title><meta name="Description" content="This article shows the basic Ubuntu Installation."><meta property="og:title" content="A Guide to Ubuntu Installtion &amp; Setup" />
+<meta property="og:description" content="This article shows the basic Ubuntu Installation." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://dsfuture.github.io/basic-ubuntu-setup/" />
+<meta property="og:image" content="https://dsfuture.github.io/basic-ubuntu-setup/ubuntu_2004.jpg"/>
+<meta property="article:published_time" content="2020-11-14T09:00:00+08:00" />
+<meta property="article:modified_time" content="2020-11-14T09:00:00+08:00" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://dsfuture.github.io/basic-ubuntu-setup/ubuntu_2004.jpg"/>
+<meta name="twitter:title" content="A Guide to Ubuntu Installtion &amp; Setup"/>
+<meta name="twitter:description" content="This article shows the basic Ubuntu Installation."/>
+<meta name="application-name" content="LoveIt">
+<meta name="apple-mobile-web-app-title" content="LoveIt"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://dsfuture.github.io/basic-ubuntu-setup/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "A Guide to Ubuntu Installtion \u0026 Setup",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/dsfuture.github.io\/basic-ubuntu-setup\/"
+        },"image": [{
+                            "@type": "ImageObject",
+                            "url": "https:\/\/dsfuture.github.io\/basic-ubuntu-setup\/ubuntu_2004.jpg",
+                            "width":  1470 ,
+                            "height":  1020 
+                        }],"genre": "posts","keywords": "Ubuntu, Installation","wordcount":  1329 ,
+        "url": "https:\/\/dsfuture.github.io\/basic-ubuntu-setup\/","datePublished": "2020-11-14T09:00:00+08:00","dateModified": "2020-11-14T09:00:00+08:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "DSFuture"
+            },"description": "This article shows the basic Ubuntu Installation."
+    }
+    </script></head>
+    <body header-desktop="fixed" header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="">DSFuture</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="">DSFuture</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a></div>
+    </div>
+</header>
+<div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div>
+<main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animated flipInX">A Guide to Ubuntu Installtion &amp; Setup</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>DSFuture</a></span>&nbsp;<span class="post-category">included in <a href="/categories/ubuntu/"><i class="far fa-folder fa-fw"></i>Ubuntu</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2020-11-14">2020-11-14</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;1329 words&nbsp;
+                <i class="far fa-clock fa-fw"></i>&nbsp;7 minutes&nbsp;</div>
+        </div><div class="featured-image"><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/basic-ubuntu-setup/ubuntu_2004.jpg"
+        data-srcset="/basic-ubuntu-setup/ubuntu_2004.jpg, /basic-ubuntu-setup/ubuntu_2004.jpg 1.5x, /basic-ubuntu-setup/ubuntu_2004.jpg 2x"
+        data-sizes="auto"
+        alt="/basic-ubuntu-setup/ubuntu_2004.jpg"
+        title="This article shows the basic Ubuntu Installation." /></div><div class="details toc" id="toc-static"  kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#1-prepare-ubuntu-bootable-usb">1 Prepare Ubuntu bootable USB</a>
+      <ul>
+        <li><a href="#11-download-the-ubuntu-iso--etcher">1.1 Download the Ubuntu ISO &amp; Etcher</a></li>
+        <li><a href="#12-create-ubuntu-bootable-usb">1.2 Create Ubuntu bootable USB</a></li>
+      </ul>
+    </li>
+    <li><a href="#2-pre-installation">2 Pre Installation</a>
+      <ul>
+        <li><a href="#21-physical-drive-setup-for-ubuntu-os">2.1 Physical Drive setup for Ubuntu OS</a></li>
+        <li><a href="#22-change-boot-order-of-your-machine">2.2 Change boot order of your machine</a></li>
+      </ul>
+    </li>
+    <li><a href="#3-start-to-install-ubuntu">3 Start to install Ubuntu</a>
+      <ul>
+        <li><a href="#31-disk-partition">3.1 Disk Partition</a></li>
+        <li><a href="#32-timezone--account">3.2 Timezone &amp; Account</a></li>
+        <li><a href="#33-finishing-up">3.3 Finishing Up</a></li>
+      </ul>
+    </li>
+    <li><a href="#4-post-installation">4 Post Installation</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><p>This article offers steps of Linux Ubuntu installation.</p>
+<div class="details admonition note open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw"></i>Note<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">This guide is based on Linux Ubuntu 20.04 LTS. However, the installation steps are similar across other version of Ubuntu.</div>
+        </div>
+    </div>
+<p>For developers, a robust and versatile operating system (OS) is important. Apple MacOS is good but you need a Macintosh, sometimes it can be over your budget. Windows is excellence for media consumption and office work but setting it up for a proper development purpose outside of Microsoft application may be challenging.</p>
+<p><strong>Ubuntu</strong> is an Linux distribution based on Debian. It is an open-source OS that can run on many modern System-on-Chips (SoC).</p>
+<p>Some of the key benefits are:</p>
+<ol>
+<li>It is free!</li>
+<li>Works on Windows running machine.</li>
+<li>Dual-boot. Install side-by-side with your Windows OS on a single drive.</li>
+<li>Huge community support.</li>
+<li>Excellent developement environment.</li>
+</ol>
+<h2 id="1-prepare-ubuntu-bootable-usb">1 Prepare Ubuntu bootable USB</h2>
+<p>Ubuntu bootable USB is a portable Ubuntu OS installed on a USB drive. With the bootable USB. You are able to try the Ubuntu desktop experience and install it.</p>
+<h3 id="11-download-the-ubuntu-iso--etcher">1.1 Download the Ubuntu ISO &amp; Etcher</h3>
+<p><code>Ubuntu</code> is distributed through the official website. The best Ubuntu image is stable Long-Term-Support (LTS) version. It usually is the first choice on the page. <a href="https://ubuntu.com/download/desktop" target="_blank" rel="noopener noreffer">Download latest Ubuntu Desktop image here</a>.</p>
+<p><code>Etcher</code> is a free and open-source software for writing image file into storage media to create bootable USB drive or SD cards. It is available for Windows, macOS and Linux. <a href="https://www.balena.io/etcher/" target="_blank" rel="noopener noreffer">Download latest Etcher here</a>.</p>
+<h3 id="12-create-ubuntu-bootable-usb">1.2 Create Ubuntu bootable USB</h3>
+<p>Etcher offers a simple GUI with 3 buttons.</p>
+<div class="details admonition note open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw"></i>Etcher GUI<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="etcher.png"
+        data-srcset="/basic-ubuntu-setup/etcher.png, etcher.png 1.5x, /basic-ubuntu-setup/etcher.png 2x"
+        data-sizes="auto"
+        alt="/basic-ubuntu-setup/etcher.png"
+        title="Ether" /></div>
+        </div>
+    </div>
+<p><strong>3 steps to flash Ubuntu in your USB drive:</strong></p>
+<ol>
+<li>Click <code>Flash from file</code> and select Ubuntu image file on the left.</li>
+<li><code>Select target</code> USB drive you wish to flash on.</li>
+<li>Click <code>Flash!</code>.</li>
+</ol>
+<p>The process may take a few minutes.</p>
+<p><strong>Congratulation! You completed first milestone!</strong> Now you have your Ubuntu USB drive and ready to install !</p>
+<hr>
+<hr>
+<hr>
+<h2 id="2-pre-installation">2 Pre Installation</h2>
+<h3 id="21-physical-drive-setup-for-ubuntu-os">2.1 Physical Drive setup for Ubuntu OS</h3>
+<p>The dilemma is, many of our computer comes with Windows OS pre-installed. It is a bit tricky when we want to use Ubuntu for development on the same machine. We have 3 options:</p>
+<ol>
+<li>Buy a new HDD/SSD for Ubuntu and <code>replace the Windows drive</code>.</li>
+<li>Buy a new HDD/SSD for Ubuntu <code>connect the drive in different SATA/NVME slot</code>, if your machine can support more than 1 drive.</li>
+<li>Install Ubuntu on the <code>same physical drive with Windows OS</code>.</li>
+</ol>
+<p>If your plan is first option, you can skip to section <code>#2.2</code>.</p>
+<p>If you plan is second or third option, you are making your Ubuntu <strong>Dual-Boot</strong> in your machine. Please follow the note below.</p>
+<div class="details admonition note open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw"></i>For Dual Boot: Ubuntu on separated drive<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><p>Physically disconnect all drives in your machine before you proceed with installation, except the SSD/HDD you wish to install Ubuntu.</p>
+<p>This is to make sure the Ubuntu GRUB (boot loader) is installed in the same drive with Ubuntu OS.</p>
+</div>
+        </div>
+    </div>
+<div class="details admonition note open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw"></i>For Dual Boot: Windows-Ubuntu on single drive<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><p>Assumed you have typical Windows setup, main OS installed on <em>C:</em> volume and <em>D:</em> volume as storage. You may shrink either <em>C:</em> or <em>D:</em> volums depending on your use case.</p>
+<p><strong>Use Windows&rsquo;s Disk Management to re-structure disk volume:</strong></p>
+<ol>
+<li>Press <code>Windows key</code> + <code>x</code> and select Disk Management from the list.</li>
+<li>Right click the volume you wish to shrink and select <code>Shrink Volume</code>.</li>
+<li>Enter the amount of space  and click <code>Shrink</code> to execute.
+<img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="shrink_volume.png"
+        data-srcset="/basic-ubuntu-setup/shrink_volume.png, shrink_volume.png 1.5x, /basic-ubuntu-setup/shrink_volume.png 2x"
+        data-sizes="auto"
+        alt="/basic-ubuntu-setup/shrink_volume.png"
+        title="Shrink volume in Disk Management" /></li>
+</ol>
+<p>Now you can see a new unused volume beside the volume you have shrinked. Next step is to install Ubuntu OS on the volume.</p>
+</div>
+        </div>
+    </div>
+<h3 id="22-change-boot-order-of-your-machine">2.2 Change boot order of your machine</h3>
+<p>Every computer will have a boot order setting in the BIOS/UEFI. If the computer has multiple bootable drive attached, the first drive in the boot order will be booted.</p>
+<p>Move the <em>Ubuntu bootable USB drive</em> to the top of the boot order to ensure your computer will boot into that USB drive.</p>
+<div class="details admonition tip open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-lightbulb fa-fw"></i>Tip<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><p>Make sure your <em>Ubuntu bootable USB</em> is plugged into USB port before the computer booting-up. If you cannot find the Ubuntu USB in boot order, please restart your computer.</p>
+<p>To get maximum speed during installation, you are advised to avoid connect the bootable drive to <a href="https://www.google.com/search?q=usb&#43;port&#43;extension" target="_blank" rel="noopener noreffer">USB port extension</a>. For the best result, please consider on-board USB 3.x port.</p>
+</div>
+        </div>
+    </div>
+<p>Different OEM laptop or motherboard may have different trigger to boot in BIOS/UEFI. The trigger key usually is <code>Del</code> or <code>F2</code>. Upon the boot screen appears on your computer screen, hit the trigger key. Restart your machine if you missed it.</p>
+<div class="details admonition note open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw"></i>Boot Screen Example<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="boot_screen.png"
+        data-srcset="/basic-ubuntu-setup/boot_screen.png, boot_screen.png 1.5x, /basic-ubuntu-setup/boot_screen.png 2x"
+        data-sizes="auto"
+        alt="/basic-ubuntu-setup/boot_screen.png"
+        title="Boot Screen Example" /></div>
+        </div>
+    </div>
+<p>Successful trigger will bring you to BIOS/UEFI menu. Navigate to page contains <strong>Boot</strong> option. The page will shows the current <em>Boot Option</em> order to the corresponding drives. Change the <strong>Boot Order #1</strong> to the <em>Ubuntu bootable USB</em>. Save the current setup at the last page of BIOS/UEFI menu and exit. Your machine will reboot.</p>
+<div class="details admonition note open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw"></i>Boot Order Example<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="uefi_boot.png"
+        data-srcset="/basic-ubuntu-setup/uefi_boot.png, uefi_boot.png 1.5x, /basic-ubuntu-setup/uefi_boot.png 2x"
+        data-sizes="auto"
+        alt="/basic-ubuntu-setup/uefi_boot.png"
+        title="Boot Order Example" /></div>
+        </div>
+    </div>
+<hr>
+<hr>
+<hr>
+<h2 id="3-start-to-install-ubuntu">3 Start to install Ubuntu</h2>
+<p>The machine booted in <em>Ubuntu bootable USB</em> will show a BIOS-like black screen with few options. For first time Ubuntu user, you are encourage to select <strong>Try Ubuntu without installing</strong> and get the first taste of Ubuntu. The option will bring you to a standard Ubuntu Interface with some basic function. In fact, you may also able install Ubuntu OS to your machine in this option.</p>
+<div class="details admonition note open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw"></i>Ubuntu USB Boot Screen<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="ubuntu_setup.png"
+        data-srcset="/basic-ubuntu-setup/ubuntu_setup.png, ubuntu_setup.png 1.5x, /basic-ubuntu-setup/ubuntu_setup.png 2x"
+        data-sizes="auto"
+        alt="/basic-ubuntu-setup/ubuntu_setup.png"
+        title="Ubuntu USB Boot Screen" /></div>
+        </div>
+    </div>
+<p>In the GUI, you may see the <code>Intall Ubuntu 20.04 LTS</code> (<em>The version number will vary based on the version you are installing</em>). Double click the desktop icon and you will be able to install the OS to your machine.</p>
+<div class="details admonition note open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw"></i>GUI in Try Ubuntu<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="ubuntu_try.jpg"
+        data-srcset="/basic-ubuntu-setup/ubuntu_try.jpg, ubuntu_try.jpg 1.5x, /basic-ubuntu-setup/ubuntu_try.jpg 2x"
+        data-sizes="auto"
+        alt="/basic-ubuntu-setup/ubuntu_try.jpg"
+        title="GUI in Try Ubuntu" /></div>
+        </div>
+    </div>
+<p>So you have clicked <code>Install Ubuntu 20.04 LTS</code> and you will see a windows pops out and prompt you to choose the language. You can choose any language you comfortable with.</p>
+<p>After the language, you have to select apps installation options. For normal development, I suggest you follow the the <strong>Installation Tips #1</strong> below.</p>
+<div class="details admonition tip open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-lightbulb fa-fw"></i>Tip<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">For <strong>NVIDIA CUDA</strong> development , please untick <strong>Install third party software for graphic&hellip;</strong> box. To avoid NVIDIA CUDA issue, we have to install graphic driver separately after the OS installation.</div>
+        </div>
+    </div>
+<div class="details admonition note open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw"></i>Installation Tips #1<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="install_1.jpg"
+        data-srcset="/basic-ubuntu-setup/install_1.jpg, install_1.jpg 1.5x, /basic-ubuntu-setup/install_1.jpg 2x"
+        data-sizes="auto"
+        alt="/basic-ubuntu-setup/install_1.jpg"
+        title="Installation Tips #1" /></div>
+        </div>
+    </div>
+<h3 id="31-disk-partition">3.1 Disk Partition</h3>
+<p>In the page <strong>Installation type</strong>, you will need to partition your drive for Ubuntu OS. Please select <code>Something else</code> and continue.</p>
+<p>The table is the guideline for partition. You may change the Size accoridng to your needs.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Partition</th>
+<th style="text-align:left">Size(MB)</th>
+<th style="text-align:left">Type</th>
+<th style="text-align:left">Location</th>
+<th style="text-align:left">Use as</th>
+<th style="text-align:left">Mount point</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">EFI</td>
+<td style="text-align:left">500</td>
+<td style="text-align:left">Primary</td>
+<td style="text-align:left">Begining of this space</td>
+<td style="text-align:left">EFI System Partition</td>
+<td style="text-align:left">N/A</td>
+</tr>
+<tr>
+<td style="text-align:left">SWAP</td>
+<td style="text-align:left">Double of your RAM size</td>
+<td style="text-align:left">Logical</td>
+<td style="text-align:left">End of this space</td>
+<td style="text-align:left">swap area</td>
+<td style="text-align:left">N/A</td>
+</tr>
+<tr>
+<td style="text-align:left">OS</td>
+<td style="text-align:left">Remaining space</td>
+<td style="text-align:left">Primary</td>
+<td style="text-align:left">Begining of this space</td>
+<td style="text-align:left">Ext4 journaling file system</td>
+<td style="text-align:left">/</td>
+</tr>
+</tbody>
+</table>
+<div class="details admonition note open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw"></i>Installation Tips #2<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><p>Select the free space and create partitions by <code>New Partition Table</code> for each particular purpose stated in the <a href="#31-disk-partition" rel="">table</a>.</p>
+<p>It is recommended to select <code>Format</code> option for <strong>OS partition</strong>.</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="install_2.png"
+        data-srcset="/basic-ubuntu-setup/install_2.png, install_2.png 1.5x, /basic-ubuntu-setup/install_2.png 2x"
+        data-sizes="auto"
+        alt="/basic-ubuntu-setup/install_2.png"
+        title="Installation Tips #2" /></p>
+</div>
+        </div>
+    </div>
+<div class="details admonition note open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw"></i>Installation Tips #3<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><p>After finished partitioning the drive, you can now select the main <code>Device</code>, in this case <code>/dev/sda</code> to <code>Install Now</code></p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="install_3.png"
+        data-srcset="/basic-ubuntu-setup/install_3.png, install_3.png 1.5x, /basic-ubuntu-setup/install_3.png 2x"
+        data-sizes="auto"
+        alt="/basic-ubuntu-setup/install_3.png"
+        title="Installation Tips #3" /></p>
+</div>
+        </div>
+    </div>
+<div class="details admonition note open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw"></i>Installation Tips #4<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><p>Ubuntu OS installer will warn you about the changes in partition table you have selected. Make sure you selected the correct drive to install Ubuntu then <code>Continue</code>.</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="install_4.png"
+        data-srcset="/basic-ubuntu-setup/install_4.png, install_4.png 1.5x, /basic-ubuntu-setup/install_4.png 2x"
+        data-sizes="auto"
+        alt="/basic-ubuntu-setup/install_4.png"
+        title="Installation Tips #4" /></p>
+</div>
+        </div>
+    </div>
+<h3 id="32-timezone--account">3.2 Timezone &amp; Account</h3>
+<p>You have completed the hardest part of the installation! Now you can select your <code>Timezone</code> and your <code>Username &amp; Password</code>.</p>
+<h3 id="33-finishing-up">3.3 Finishing Up</h3>
+<p>Now you can sit back and have a cup of coffee while your Ubuntu is brewing.</p>
+<div class="details admonition note open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw"></i>Installation Finished<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><p>Please select <code>Restart Now</code> when Ubuntu OS installer told you so.</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="install_5.png"
+        data-srcset="/basic-ubuntu-setup/install_5.png, install_5.png 1.5x, /basic-ubuntu-setup/install_5.png 2x"
+        data-sizes="auto"
+        alt="/basic-ubuntu-setup/install_5.png"
+        title="Installation Finished" /></p>
+</div>
+        </div>
+    </div>
+<div class="details admonition tip open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-lightbulb fa-fw"></i>Tip<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">The machine will ask you to remove the <em>Ubuntu bootable USB</em> before it reboot. Do it and hit <code>Enter</code></div>
+        </div>
+    </div>
+<hr>
+<hr>
+<hr>
+<h2 id="4-post-installation">4 Post Installation</h2>
+<p>Ta Daa!! Now you should see your Ubuntu welcome screen. Your dev life start by clicking on your username !</p>
+<p>Now, once you log in the first time, Ubuntu will ask you several setup. For example, <strong>Connect Online Accounts</strong>, <strong>Livepatch</strong> and <strong>Help improve Ubuntu</strong>. You may do it to suit your case. Personally I will say <em>No</em> to all.</p>
+<div class="details admonition note open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw"></i>A little Extra<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><p>To update any installed packages</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">sudo apt update
+sudo apt upgrade
+</code></pre></td></tr></table>
+</div>
+</div></div>
+        </div>
+    </div></div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2020-11-14</span>
+            </div>
+            <div class="post-info-license"></div>
+        </div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/basic-ubuntu-setup/index.md" target="_blank">Read Markdown</a>
+                        </span></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://dsfuture.github.io/basic-ubuntu-setup/" data-title="A Guide to Ubuntu Installtion &amp; Setup" data-via="xxxx" data-hashtags="Ubuntu,Installation"><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://dsfuture.github.io/basic-ubuntu-setup/" data-hashtag="Ubuntu"><i class="fab fa-facebook-square fa-fw"></i></a><a href="javascript:void(0);" title="Share on WhatsApp" data-sharer="whatsapp" data-url="https://dsfuture.github.io/basic-ubuntu-setup/" data-title="A Guide to Ubuntu Installtion &amp; Setup" data-web><i class="fab fa-whatsapp fa-fw"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="https://dsfuture.github.io/basic-ubuntu-setup/" data-title="A Guide to Ubuntu Installtion &amp; Setup"><i data-svg-src="/lib/simple-icons/icons/line.min.svg"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="https://dsfuture.github.io/basic-ubuntu-setup/" data-title="A Guide to Ubuntu Installtion &amp; Setup"><i class="fab fa-weibo fa-fw"></i></a><a href="javascript:void(0);" title="Share on Myspace" data-sharer="myspace" data-url="https://dsfuture.github.io/basic-ubuntu-setup/" data-title="A Guide to Ubuntu Installtion &amp; Setup" data-description="This article shows the basic Ubuntu Installation."><i data-svg-src="/lib/simple-icons/icons/myspace.min.svg"></i></a><a href="javascript:void(0);" title="Share on Blogger" data-sharer="blogger" data-url="https://dsfuture.github.io/basic-ubuntu-setup/" data-title="A Guide to Ubuntu Installtion &amp; Setup" data-description="This article shows the basic Ubuntu Installation."><i class="fab fa-blogger fa-fw"></i></a><a href="javascript:void(0);" title="Share on Evernote" data-sharer="evernote" data-url="https://dsfuture.github.io/basic-ubuntu-setup/" data-title="A Guide to Ubuntu Installtion &amp; Setup"><i class="fab fa-evernote fa-fw"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/ubuntu/">Ubuntu</a>,&nbsp;<a href="/tags/installation/">Installation</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"></div>
+</div>
+<div id="comments"></div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.78.1">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.10"><i class="far fa-kiss-wink-heart fa-fw"></i> LoveIt</a>
+                </div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2019 - 2020</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">xxxx</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/lightgallery/lightgallery.min.css"><link rel="stylesheet" href="/lib/katex/katex.min.css"><link rel="stylesheet" href="/lib/katex/copy-tex.min.css"><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><script type="text/javascript" src="/lib/smooth-scroll/smooth-scroll.min.js"></script><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lightgallery.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lg-thumbnail.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lg-zoom.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/katex/katex.min.js"></script><script type="text/javascript" src="/lib/katex/auto-render.min.js"></script><script type="text/javascript" src="/lib/katex/copy-tex.min.js"></script><script type="text/javascript" src="/lib/katex/mhchem.min.js"></script><script type="text/javascript" src="/lib/cookieconsent/cookieconsent.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":10},"comment":{},"cookieconsent":{"content":{"dismiss":"Got it!","link":"Learn more","message":"This website uses Cookies to improve your experience."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"lightGallery":{"actualSize":false,"exThumbImage":"data-thumbnail","hideBarsDelay":2000,"selector":".lightgallery","speed":400,"thumbContHeight":80,"thumbWidth":80,"thumbnail":true},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","lunrIndexURL":"/index.json","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"lunr"}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>
