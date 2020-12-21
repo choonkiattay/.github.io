@@ -1,16 +1,16 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title></title>
-        <link>https://dsfuture.github.io/</link>
+        <link>https://choonkiattay.github.io/</link>
         <description>DS Future</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 14 Nov 2020 09:00:00 &#43;0800</lastBuildDate>
-            <atom:link href="https://dsfuture.github.io/index.xml" rel="self" type="application/rss+xml" />
+            <atom:link href="https://choonkiattay.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
     <title>A Guide to Ubuntu Installtion &amp; Setup</title>
-    <link>https://dsfuture.github.io/basic-ubuntu-setup/</link>
+    <link>https://choonkiattay.github.io/basic-ubuntu-setup/</link>
     <pubDate>Sat, 14 Nov 2020 09:00:00 &#43;0800</pubDate>
     <author>Author</author>
-    <guid>https://dsfuture.github.io/basic-ubuntu-setup/</guid>
+    <guid>https://choonkiattay.github.io/basic-ubuntu-setup/</guid>
     <description><![CDATA[<p>This article offers steps of Linux Ubuntu installation.</p>]]></description>
 </item></channel>
 </rss>
