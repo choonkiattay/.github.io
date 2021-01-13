@@ -62,7 +62,7 @@ The dilemma is, many of our computer comes with Windows OS pre-installed. It is 
 2. Buy a new HDD/SSD for Ubuntu `connect the drive in different SATA/NVME slot`, if your machine can support more than 1 drive.
 3. Install Ubuntu on the `same physical drive with Windows OS`.
 
-If your plan is first option, you can skip to section `#2.2`.
+If your plan is first option, you can skip to section [2.2](#22-change-boot-order-of-your-machine).
 
 If you plan is second or third option, you are making your Ubuntu **Dual-Boot** in your machine. Please follow the note below.
 
