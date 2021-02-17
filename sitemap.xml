@@ -2,11 +2,18 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
+            <loc>https://choonkiattay.github.io/leetcode_comb_2table/</loc><lastmod>2021-02-16T09:00:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://choonkiattay.github.io/leetcode_reverse_int/</loc><lastmod>2021-02-16T09:00:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://choonkiattay.github.io/leetcode_twosum/</loc><lastmod>2021-02-15T09:00:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://choonkiattay.github.io/basic-ubuntu-setup/</loc><lastmod>2020-11-14T09:00:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://choonkiattay.github.io/categories/</loc><lastmod>2020-11-14T09:00:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://choonkiattay.github.io/</loc><lastmod>2020-11-14T09:00:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://choonkiattay.github.io/categories/</loc><lastmod>2021-02-16T09:00:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://choonkiattay.github.io/</loc><lastmod>2021-02-16T09:00:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://choonkiattay.github.io/tags/leetcode/</loc><lastmod>2021-02-16T09:00:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://choonkiattay.github.io/categories/leetcode/</loc><lastmod>2021-02-16T09:00:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://choonkiattay.github.io/posts/</loc><lastmod>2021-02-16T09:00:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://choonkiattay.github.io/tags/python/</loc><lastmod>2021-02-16T09:00:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://choonkiattay.github.io/tags/sql/</loc><lastmod>2021-02-16T09:00:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://choonkiattay.github.io/tags/</loc><lastmod>2021-02-16T09:00:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://choonkiattay.github.io/tags/installation/</loc><lastmod>2020-11-14T09:00:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://choonkiattay.github.io/posts/</loc><lastmod>2020-11-14T09:00:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://choonkiattay.github.io/tags/</loc><lastmod>2020-11-14T09:00:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://choonkiattay.github.io/tags/ubuntu/</loc><lastmod>2020-11-14T09:00:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://choonkiattay.github.io/categories/ubuntu/</loc><lastmod>2020-11-14T09:00:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>

@@ -1,0 +1,14 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>SQL - Tag - DSFuture</title>
+        <link>https://choonkiattay.github.io/tags/sql/</link>
+        <description>SQL - Tag - DSFuture</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 16 Feb 2021 09:00:00 &#43;0800</lastBuildDate><atom:link href="https://choonkiattay.github.io/tags/sql/" rel="self" type="application/rss+xml" /><item>
+    <title>Leetcode Easy #175: Combine Two Tables</title>
+    <link>https://choonkiattay.github.io/leetcode_comb_2table/</link>
+    <pubDate>Tue, 16 Feb 2021 09:00:00 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://choonkiattay.github.io/leetcode_comb_2table/</guid>
+    <description><![CDATA[<p>A humble tutorial for Leetcode challenge #175 Combine Two Tables.</p>]]></description>
+</item></channel>
+</rss>
